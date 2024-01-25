@@ -23,6 +23,7 @@ Array
             [2] => author
             [3] => publisher
             [4] => ctry
+            [5] => 01-25-24
         )
 
     [1] => Array
@@ -32,7 +33,8 @@ Array
             [2] => J. R. R. Tolkien
             [3] => Houghton Mifflin
             [4] => USA
-        )
+            [5] => 01-25-24
+            )
 
 )
 ```

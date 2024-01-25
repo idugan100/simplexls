@@ -227,15 +227,7 @@ class SimpleXLS
         $this->_oleread($filename, $isData);
         $this->_parse();
     }
-    public static function parseFile($filename, $debug = false)
-    {
-        return self::parse($filename, false, $debug);
-    }
 
-    public static function parseData($data, $debug = false)
-    {
-        return self::parse($data, true, $debug);
-    }
     public static function parse($filename, string $dateTimeFormat = 'Y-m-d H:i:s', $isData = false, $debug = false)
     {
         $xls = new self($filename, $dateTimeFormat, $isData, $debug);
@@ -326,11 +318,6 @@ class SimpleXLS
         $s .= '</table>';
 
         return $s;
-    }
-    public function setDateTimeFormat($value): SimpleXLS
-    {
-        $this->datetimeFormat = is_string($value) ? $value : false;
-        return $this;
     }
     public function sheetNames(): array
     {
