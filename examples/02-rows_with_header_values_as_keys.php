@@ -29,6 +29,7 @@ if ($xls = SimpleXLS::parse('books.xls')) {
                 [author] => J. R. R. Tolkien
                 [publisher] => Houghton Mifflin
                 [ctry] => USA
+                [date of access] => 2024-01-25 00:00:00
             )
 
         [1] => Array
@@ -38,6 +39,8 @@ if ($xls = SimpleXLS::parse('books.xls')) {
                 [author] => Lynley Dodd
                 [publisher] => Mallinson Rendel
                 [ctry] => NZ
+                [date of access] => 2024-01-25 00:00:00
+
             )
 
     )
